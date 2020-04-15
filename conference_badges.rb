@@ -13,8 +13,7 @@ end
 def assign_rooms(rooms)
   assign = []
   rooms.each_with_index do |room, index|
-    welcome = "Hello, #{room}! You'll be assigned to room #{index + 1}!"
-    assign.push(welcome)
+    assign.push("Hello, #{room}! You'll be assigned to room #{index + 1}!")
   end
   return assign
 end
