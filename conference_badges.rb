@@ -21,6 +21,7 @@ def assign_rooms(rooms)
 end
 
 def printer(people)
+<<<<<<< HEAD
   people.each_with_index do |peeps, index|
     puts "Hello, my name is #{people[index]}."
   end
@@ -41,4 +42,26 @@ end
 #   puts please[count]
 #   count +=1
 # end
+=======
+  counter = 0
+  count = 0
+  peeps = batch_badge_creator(people)
+  where = assign_rooms(people)
+  until counter > peeps.size
+    puts peeps[counter]
+    counter +=1
+  until count > where.size
+    puts where[counter]
+    count +=1
+end
+
+
+  # people.each_with_index do |peeps, index|
+  #   puts "Hello, my name is #{people[index]}."
+  # end
+  # assign_rooms(people)
+  # people.each_with_index do |peep, index|
+  #   puts "Hello, #{peep}! You'll be assigned to room #{index + 1}!"
+  # end
+>>>>>>> 3e0d8726681322bcaa05aeaddc5be409fec9ed87
 # end
