@@ -20,12 +20,8 @@ def assign_rooms(rooms)
 end
 
 def printer(people)
-  batch_badge_creator(people).each do |peeps|
-    puts peeps
-  end
-  assign_rooms(people).each do |where|
-    puts where
-  end
+  batch_badge_creator(people).each {|peeps| puts peeps}
+  assign_rooms(people).each {|where| puts where}
 end
 
 
