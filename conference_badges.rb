@@ -51,17 +51,17 @@ end
 #   count +=1
 # end
 =======
-  counter = 0
-  count = 0
-  peeps = batch_badge_creator(people)
-  where = assign_rooms(people)
-  until counter > peeps.size
-    puts peeps[counter]
-    counter +=1
-  until count > where.size
-    puts where[counter]
-    count +=1
-end
+#   counter = 0
+#   count = 0
+#   peeps = batch_badge_creator(people)
+#   where = assign_rooms(people)
+#   until counter > peeps.size
+#     puts peeps[counter]
+#     counter +=1
+#   until count > where.size
+#     puts where[counter]
+#     count +=1
+# end
 
 
   # people.each_with_index do |peeps, index|
