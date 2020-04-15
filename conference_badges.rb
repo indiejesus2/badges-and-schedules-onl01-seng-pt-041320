@@ -50,7 +50,7 @@ end
 #   puts please[count]
 #   count +=1
 # end
-=======
+# =======
 #   counter = 0
 #   count = 0
 #   peeps = batch_badge_creator(people)
@@ -71,5 +71,5 @@ end
   # people.each_with_index do |peep, index|
   #   puts "Hello, #{peep}! You'll be assigned to room #{index + 1}!"
   # end
->>>>>>> 3e0d8726681322bcaa05aeaddc5be409fec9ed87
+# >>>>>>> 3e0d8726681322bcaa05aeaddc5be409fec9ed87
 # end
